@@ -1,0 +1,7 @@
+.next
+cypress
+internationalized-documentation
+node_modules
+scripts
+*.md
+src/**/*.test.js

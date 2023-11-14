@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer should render with many props assigned 1`] = `
+<div
+  className="test-class hidden lg:block transition-all ease-in-out duration-1000 fixed top-0 bottom-0  overflow-hidden width-full z-[2] -left-0"
+>
+  <div
+    className="h-full w-full"
+  >
+    Test
+  </div>
+</div>
+`;
+
+exports[`Drawer should render with required props 1`] = `
+<div
+  className="hidden lg:block transition-all ease-in-out duration-1000 fixed top-0 bottom-0  overflow-hidden width-full z-[2] -left-[100%]"
+>
+  <div
+    className="h-full w-full"
+  >
+    Test
+  </div>
+</div>
+`;

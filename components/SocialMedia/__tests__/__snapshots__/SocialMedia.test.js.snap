@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMedia should render with no props passed passed 1`] = `
+<SocialMediaContainer>
+  <SocialMediaItem
+    href="https://facebook.com/operationcode.org"
+    name="Facebook"
+    svg={
+      <Svg
+        className="fill-white w-6"
+      />
+    }
+  />
+  <SocialMediaItem
+    href="https://twitter.com/operation_code"
+    name="Twitter"
+    svg={
+      <Svg
+        className="fill-white w-6"
+      />
+    }
+  />
+  <SocialMediaItem
+    href="https://www.instagram.com/operation_code/"
+    name="Instagram"
+    svg={
+      <Svg
+        className="fill-white w-6"
+      />
+    }
+  />
+  <SocialMediaItem
+    href="https://www.youtube.com/channel/UCAoJt4a_KEBmgXfoQUrNbSA"
+    name="YouTube"
+    svg={
+      <Svg
+        className="fill-white w-6"
+      />
+    }
+  />
+  <SocialMediaItem
+    href="https://www.linkedin.com/company/operationcode/"
+    name="LinkedIn"
+    svg={
+      <Svg
+        className="fill-white w-6"
+      />
+    }
+  />
+  <SocialMediaItem
+    href="https://github.com/OperationCode/"
+    name="GitHub"
+    svg={
+      <Svg
+        className="fill-white w-6"
+      />
+    }
+  />
+</SocialMediaContainer>
+`;

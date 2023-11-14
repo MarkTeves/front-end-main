@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline should render with no props passed passed 1`] = `
+<div
+  className="timeline"
+>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2011
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2011"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            Operation Code's founder - retired U.S. Army Captain, David Molina - attended his first hackathon in New York City. After a weekend learning to code at
+             
+            <OutboundLink
+              alt="Angel Hack"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://angelhack.com"
+            >
+              AngelHack,
+            </OutboundLink>
+             
+            he was inspired to pursue software engineering as a post-military occupation. He submitted an application to The Flatiron School while on active-duty, only to discover that the program did not accept the "Post-9/11 GI Bill" as payment.
+          </p>
+        }
+        title="Humble Beginnings"
+      />
+    </div>
+  </div>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2013
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2013"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            Molina exited military service and began to self-teach Ruby on Rails, a full-stack web development platform for building comprehensive web applications. He also started attending meetups with
+             
+            <OutboundLink
+              alt="Bmore On Rails"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.meetup.com/bmore-on-rails/"
+            >
+              "Bmore on Rails"
+            </OutboundLink>
+             
+            while finishing
+             
+            <OutboundLink
+              alt="One Mounth Rails"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://onemonth.com"
+            >
+              One Month's Rails
+            </OutboundLink>
+             
+            online course. After meeting Rubyists from around the world, he was introduced to the Portland, Oregon Ruby group. Inspired, Molina joined Techstars'
+             
+            <OutboundLink
+              alt="Patriot Boot Camp"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://patriotbootcamp.org/"
+            >
+              Patriot Boot Camp
+            </OutboundLink>
+            (PBC) at George Washington University.
+          </p>
+        }
+        title="One Month's Rails"
+      />
+      <TimelineEvent
+        content={
+          <p>
+            During this time, Molina met with Virginia Senator Tim Kaine, to speak about the inability to use the Post 9/11 GI Bill for coding bootcamps. Before departing D.C., Molina received advice from U.S. Army Congressional Fellow Ben Culver, on gathering data to address the problem. This was the beginning efforts for the current VET TEC pilot program under the Forever G.I. Bill.
+          </p>
+        }
+        title="Grassroots Advocacy"
+      />
+      <TimelineEvent
+        content={
+          <p>
+            Molina’s next step was to purchase the domain opcod3.us and work with fellow Army veteran and software developer, Don Livanec to finish the first live webpage in 2013.
+          </p>
+        }
+        title="Operation Code's First Draft"
+      />
+    </div>
+  </div>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2014
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2014"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            At
+             
+            <OutboundLink
+              alt="Cascadia Conference"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="http://cascadiarubyconf.com/"
+            >
+              Cascadia Ruby,
+            </OutboundLink>
+             
+            Molina received encouragement from fellow Rubyist, Whitney Rose, to launch Operation Code's petition using "Launchrock". After lengthy discussions with Kristin Smith, Adam Enbar (representing The Flatiron School), and
+             
+            <OutboundLink
+              alt="Code Fellows"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.codefellows.org"
+            >
+              Code Fellows,
+            </OutboundLink>
+             
+            the first line of code is committed to
+             
+            <OutboundLink
+              alt="Operation Code Old Repository"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="//github.com/OperationCode/operationcode"
+            >
+              GitHub
+            </OutboundLink>
+             
+            .
+          </p>
+        }
+        title="First Commit"
+      />
+      <TimelineEvent
+        content={
+          <p>
+            Later that same year, web developer, teacher, entrepreneur and co-founder of
+             
+            <OutboundLink
+              alt="Code Fellows"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.codefellows.org"
+            >
+              Code Fellows,
+            </OutboundLink>
+             
+            Ivan Storck, purchased the domain 'operationcode.org' and became our first donor in the process. To round out 2014, HackHands co-founders Forest Good and Geraldo Ramos joined Operation Code, designing our logo and providing veterans free access to
+             
+            <OutboundLink
+              alt="Hack Summit"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://hacksummit.org/"
+            >
+              hack.summit,
+            </OutboundLink>
+             
+            a virtual conference to learn from the world's most renowned programmers.
+          </p>
+        }
+        title="Our Official Domain and Brand is Born"
+      />
+    </div>
+  </div>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2015
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2015"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            Operation Code formally launched as a nonprofit, led by David Molina. The kickoff event hosted dozens of veterans, software developers, media representatives, and staff members from Senator Ron Wyden and Congressman Earl Blumenauer's offices.
+          </p>
+        }
+        title="501(c)(3) Official Status"
+      />
+    </div>
+  </div>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2019
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2019"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            As a direct result of the lobbying and work of Operation Code,
+             
+            <OutboundLink
+              alt="VET TEC"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/vettec-high-tech-program/"
+            >
+              VET TEC
+            </OutboundLink>
+             
+            was launched. Under the Harry W. Colmery Veterans Educational Assistance Act (also known as the Forever G.I. Bill), the
+             
+            <OutboundLink
+              alt="VET TEC"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/vettec-high-tech-program/"
+            >
+              VET TEC
+            </OutboundLink>
+             
+            program received $15 million per annual budget to assist students in the areas of: information science, software, computer programming, data processing and media application. This program does not utilize the entitlement and remaining months of the G.I. Bill, but requires candidates to have at least one day of remaining entitlement remaining. Students receive a housing stipend similar to the G.I. Bill at the E-5 with dependents rate.
+          </p>
+        }
+        title="April 2019 Congress Passes VET TEC Program"
+      />
+    </div>
+  </div>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2021
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2021"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            Operation Code receives the Gold Seal of Transparency from
+             
+            <OutboundLink
+              alt="Guidestar"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.guidestar.org/"
+            >
+              Guidestar.org,
+            </OutboundLink>
+             
+            the independent data analysis for non-profit certification of approval.
+          </p>
+        }
+        title="February 2021 Guidestar Gold"
+      />
+      <TimelineEvent
+        content={
+          <p>
+            Today, Operation Code continues our advocacy efforts and strategic alliances, builds on our supportive online community, local chapter and online meetups, mentorship, career networking, free learning resources, access to code school scholarships, and continues to advocate for veteran and military family access to code schools and careers in the tech industry.
+          </p>
+        }
+        title="March 2021 Operation Code Exceeds 8000 Members"
+      />
+    </div>
+  </div>
+  <div
+    className="segment"
+  >
+    <div
+      className="date"
+    >
+      <h3>
+        2023
+      </h3>
+    </div>
+    <div
+      className="vertLine"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="bubble"
+      />
+    </div>
+    <div
+      className="timelineEvent"
+      id="event-2023"
+    >
+      <TimelineEvent
+        content={
+          <p>
+            Operation Code receives the
+             
+            <OutboundLink
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.guidestar.org/profile/shared/52626ac8-5e8b-445a-889e-30bf1ac0b46e"
+            >
+              Platinum Seal of Transparency
+            </OutboundLink>
+             
+            from
+             
+            <OutboundLink
+              alt="Guidestar"
+              analyticsEventLabel="History Link"
+              hasIcon={true}
+              href="https://www.guidestar.org/"
+            >
+              Guidestar.org,
+            </OutboundLink>
+             
+            the independent data analysis for non-profit certification of approval.
+          </p>
+        }
+        title="August 2023 Guidestar Platinum"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render with many props assigned 1`] = `
+<figure
+  className="flex flex-col justify-items-center place-content-start m-2 [&>svg]:fill-current [&>svg]:my-4 [&>img]:mx-0 [&>img]:h-24 [&>svg]:mx-0 [&>svg]:h-24 test-class"
+>
+  <svg />
+  <figcaption
+    className="text-center whitespace-nowrap"
+  >
+    Badge Icon
+  </figcaption>
+</figure>
+`;
+
+exports[`Badge should render with required props 1`] = `
+<figure
+  className="flex flex-col justify-items-center place-content-start m-2 [&>svg]:fill-current [&>svg]:my-4 [&>img]:mx-0 [&>img]:h-24 [&>svg]:mx-0 [&>svg]:h-24"
+>
+  <svg />
+  <figcaption
+    className="text-center whitespace-nowrap"
+  >
+    Testing
+  </figcaption>
+</figure>
+`;

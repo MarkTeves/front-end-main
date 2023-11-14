@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should render with no props passed 1`] = `
+<React.Fragment>
+  <NavMobile
+    closeMenu={[Function]}
+    isOpen={false}
+    navItems={
+      Array [
+        Object {
+          "href": "/about",
+          "name": "About Us",
+        },
+        Object {
+          "href": "/get_involved",
+          "name": "Get Involved",
+        },
+        Object {
+          "href": "/podcast",
+          "name": "Podcast",
+        },
+        Object {
+          "href": "/code_schools",
+          "name": "Code Schools",
+        },
+        Object {
+          "href": "/project_rebuild",
+          "name": "Project Rebuild",
+        },
+        Object {
+          "href": "/chapters",
+          "name": "Chapters",
+        },
+        Object {
+          "href": "/sponsorship",
+          "name": "Sponsorship",
+        },
+        Object {
+          "href": "/swag",
+          "name": "Merch Store",
+        },
+        Object {
+          "href": "/contact",
+          "name": "Contact Us",
+        },
+        Object {
+          "href": "/donate",
+          "name": "Donate",
+        },
+      ]
+    }
+    openMenu={[Function]}
+  />
+  <header
+    className="NavDesktop"
+  >
+    <div
+      className="desktopNavContainer"
+      data-testid="Desktop Nav Container"
+    >
+      <nav
+        data-testid="Desktop Nav"
+      >
+        <ForwardRef(LinkComponent)
+          href="/"
+        >
+          <a
+            className="logoLink link"
+            onContextMenu={[Function]}
+          >
+            <Svg
+              className="logo"
+              fill="#f7f7f7"
+              style={
+                Object {
+                  "height": 42,
+                  "width": 224,
+                }
+              }
+            />
+          </a>
+        </ForwardRef(LinkComponent)>
+        <ul
+          className="link"
+        >
+          <ForwardRef(LoadableComponent)
+            href="/about"
+            icon={null}
+            name="About Us"
+            sublinks={
+              Array [
+                Object {
+                  "href": "/team",
+                  "name": "Our Team",
+                },
+                Object {
+                  "href": "/history",
+                  "name": "History",
+                },
+                Object {
+                  "href": "/faq",
+                  "name": "FAQ",
+                },
+                Object {
+                  "href": "/branding",
+                  "name": "Branding",
+                },
+              ]
+            }
+          />
+          <ForwardRef(LoadableComponent)
+            href="/services"
+            icon={null}
+            name="Services"
+            sublinks={
+              Array [
+                Object {
+                  "href": "/podcast",
+                  "name": "Podcast",
+                },
+                Object {
+                  "href": "/code_schools",
+                  "name": "Code Schools",
+                },
+                Object {
+                  "href": "/project_rebuild",
+                  "name": "Project Rebuild",
+                },
+              ]
+            }
+          />
+          <ForwardRef(LoadableComponent)
+            href="/get_involved"
+            icon={null}
+            name="Get Involved"
+            sublinks={
+              Array [
+                Object {
+                  "href": "/chapters",
+                  "name": "Chapters",
+                },
+                Object {
+                  "href": "/sponsorship",
+                  "name": "Sponsorship",
+                },
+                Object {
+                  "href": "/swag",
+                  "name": "Merch Store",
+                },
+                Object {
+                  "href": "/contact",
+                  "name": "Contact Us",
+                },
+                Object {
+                  "href": "/donate",
+                  "name": "Donate",
+                },
+              ]
+            }
+          />
+          <li>
+            <ForwardRef(LinkComponent)
+              href="/donate"
+            >
+              <a
+                className="link donateLink"
+              >
+                Donate
+              </a>
+            </ForwardRef(LinkComponent)>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</React.Fragment>
+`;

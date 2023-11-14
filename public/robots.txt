@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /employers.html
+Disallow: /password_reset.html
+Disallow: /thank_you.html
+
+Sitemap: https://www.operationcode.org/sitemap.xml

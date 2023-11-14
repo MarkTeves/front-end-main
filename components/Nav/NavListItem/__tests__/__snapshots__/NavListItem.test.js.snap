@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavListItem should render with required props passed 1`] = `
+<li
+  className="NavListItem"
+>
+  <ForwardRef(LinkComponent)
+    href="/test"
+  >
+    <a
+      className="link navItemLink"
+      data-testid="Nav Item Test"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="link"
+      tabIndex={0}
+    >
+      <span
+        className="linkContent"
+      >
+        Test
+      </span>
+    </a>
+  </ForwardRef(LinkComponent)>
+</li>
+`;

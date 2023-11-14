@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSection should render with required props 1`] = `
+<React.Fragment>
+  <Content
+    className=""
+    columns={
+      Array [
+        <div>
+          <h3
+            className="centeredText"
+          >
+            Primary
+          </h3>
+          <Swatch
+            colorName="Primary"
+            hexCode="#3ed6f0"
+          />
+        </div>,
+        <div>
+          <h3
+            className="centeredText"
+          >
+            Secondary
+          </h3>
+          <Swatch
+            colorName="Secondary"
+            hexCode="#252e3e"
+          />
+        </div>,
+      ]
+    }
+    hasTitleUnderline={true}
+    isFullViewportHeight={false}
+    theme="white"
+    title="Colors"
+  />
+  <Content
+    className=""
+    columns={
+      Array [
+        <Swatch
+          colorName="gray"
+          hexCode="#e2e2e2"
+        />,
+        <Swatch
+          colorName="white"
+          hexCode="#f7f7f7"
+        />,
+      ]
+    }
+    hasTitleUnderline={false}
+    isFullViewportHeight={false}
+    theme="white"
+    title="Other On-Brand Colors"
+  />
+</React.Fragment>
+`;

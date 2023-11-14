@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlatCard should render with many props assigned 1`] = `
+<article
+  className="FlatCard test-class"
+>
+  <div
+    className="borderContainer"
+  >
+    <div
+      className="header"
+    >
+      <h1>
+        Main heading
+      </h1>
+      <h6>
+        Sub heading
+      </h6>
+    </div>
+    <hr
+      className="divider"
+    />
+    <div
+      className="children"
+    >
+      <p>
+        Example content goes here
+      </p>
+      <p>
+        More content goes here
+      </p>
+    </div>
+    <div
+      className="flatCardButton"
+    >
+      <a
+        className="Button primary"
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Widget Action
+      </a>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`FlatCard should render with required props 1`] = `
+<article
+  className="FlatCard"
+>
+  <div
+    className="borderContainer"
+  >
+    <div
+      className="children"
+    >
+      <p>
+        Example content goes here
+      </p>
+      <p>
+        More content goes here
+      </p>
+    </div>
+  </div>
+</article>
+`;

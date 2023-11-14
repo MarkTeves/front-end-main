@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavMobile should render 1`] = `
+<header
+  className="NavMobile"
+  data-testid="Mobile Nav Container"
+>
+  <ForwardRef(LinkComponent)
+    href="/"
+  >
+    <button
+      className="button logoButton"
+      name="dropdown"
+      type="button"
+    >
+      <div
+        className="logo"
+      >
+        <MockedNextImage
+          alt="Operation Code Logo"
+          height={42}
+          src="https://operation-code-assets.s3.us-east-2.amazonaws.com/branding/logos/small-blue-logo.png"
+          width={224}
+        />
+      </div>
+    </button>
+  </ForwardRef(LinkComponent)>
+  <button
+    className="button hamburger"
+    data-testid="Hamburger Button"
+    name="dropdown"
+    onClick={[Function]}
+    type="button"
+  >
+    <ScreenReaderOnly>
+      Open Menu
+    </ScreenReaderOnly>
+    <Svg
+      className="hamburgerIcon"
+    />
+  </button>
+</header>
+`;

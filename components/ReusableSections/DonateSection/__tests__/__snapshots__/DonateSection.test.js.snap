@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonateSection should render with no props passed passed 1`] = `
+<Container
+  backgroundImageSource="https://operation-code-assets.s3.us-east-2.amazonaws.com/background_flag.jpg"
+  isFullViewportHeight={false}
+  theme="secondary"
+>
+  <Heading
+    hasHashLink={true}
+    hasTitleUnderline={false}
+    headingLevel={3}
+    text="Donate"
+  />
+  <p>
+    As a 501(c)(3) veteran-led nonprofit organization, our programs and services are maintained through the efforts of our volunteer staff. Your financial support allows us to continue helping the military community learn software development, enter the tech industry, and code the future.
+  </p>
+  <p>
+    Thank you for supporting our mission!
+  </p>
+  <LinkButton
+    className="topMargin"
+    fullWidth={false}
+    href="/donate"
+    theme="primary"
+  >
+    Donate Now
+  </LinkButton>
+</Container>
+`;

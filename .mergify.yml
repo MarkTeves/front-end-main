@@ -1,0 +1,27 @@
+queue_rules:
+  - name: default
+    conditions:
+      - 'status-success=Vercel – operation-code'
+      - 'status-success=Vercel – storybook'
+      - 'status-success=ci/circleci: lint'
+      - 'status-success=ci/circleci: unit_tests'
+      - 'status-success=cypress: all tests'
+      - status-success=codeclimate/diff-coverage
+      - status-success=codeclimate/total-coverage
+
+pull_request_rules:
+  - name: Auto-merge successful Dependabot upgrades
+    conditions:
+      - author=dependabot[bot]
+      - '#changes-requested-reviews-by=0'
+      - 'status-success=Vercel – operation-code'
+      - 'status-success=Vercel – storybook'
+      - 'status-success=ci/circleci: lint'
+      - 'status-success=ci/circleci: unit_tests'
+      - 'status-success=cypress: all tests'
+      - status-success=codeclimate/diff-coverage
+      - status-success=codeclimate/total-coverage
+    actions:
+      queue:
+        method: rebase
+        name: default

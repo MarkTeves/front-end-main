@@ -1,0 +1,41 @@
+.Home .hero {
+  padding: 0;
+}
+
+.Home .ctaContainer {
+  display: flex;
+  width: 100%;
+  max-width: var(--typicalMaxWidth);
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Home .ctaContainer > * {
+  margin-top: 1rem;
+}
+
+.Home .mission {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home .successStories {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.Home .partnerLogos {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: var(--typicalMaxWidth);
+}
+
+.Home .joinThrivingSection {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction: column;
+}

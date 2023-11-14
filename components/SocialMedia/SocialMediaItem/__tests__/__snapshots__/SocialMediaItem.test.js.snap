@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMediaItem should render with required props 1`] = `
+<div
+  className="my-0 mx-2 opacity-80 hover:opacity-100"
+>
+  <a
+    className="OutboundLink"
+    href="https://facebook.com"
+    onClick={[Function]}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <span
+      className="sr-only"
+      data-testid="SCREEN_READER_ONLY"
+    >
+      Operation Code's 
+      Facebook
+    </span>
+    <svg />
+    <span
+      className="sr-only"
+      data-testid="SCREEN_READER_ONLY"
+    >
+      Opens in new window
+    </span>
+  </a>
+</div>
+`;

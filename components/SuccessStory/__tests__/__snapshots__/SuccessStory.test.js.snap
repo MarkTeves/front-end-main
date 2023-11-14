@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuccessStory should render with required props 1`] = `
+<div
+  className="SuccessStory"
+>
+  <div
+    className="imageWrapper"
+  >
+    <MockedNextImage
+      alt="Great testing culture headshot"
+      height={200}
+      layout="fixed"
+      src="image.png"
+      width={200}
+    />
+  </div>
+  <div
+    className="quote"
+  >
+    <h6
+      className="title"
+    >
+      Great testing culture
+    </h6>
+    <blockquote>
+      "Best test of my life!"
+    </blockquote>
+  </div>
+</div>
+`;

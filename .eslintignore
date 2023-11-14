@@ -1,0 +1,13 @@
+node_modules
+package.json
+yarn.lock
+.babelrc
+**/.babelrc
+.next
+.github
+bin
+static
+cypress-coverage
+jest-coverage
+.storybook-dist
+common/styles/themeMap.js

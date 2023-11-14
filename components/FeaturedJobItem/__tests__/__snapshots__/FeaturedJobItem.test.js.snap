@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturedJobItem should render with many props assigned 1`] = `
+<article
+  className="py-4 px-0"
+>
+  <a
+    className="OutboundLink"
+    href="https://jobs.lever.co/formidable/82919058-b73c-4a02-8589-87e2433f0a90"
+    onClick={[Function]}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <h6>
+      Experienced React Engineer
+    </h6>
+    <span
+      className="sr-only"
+      data-testid="SCREEN_READER_ONLY"
+    >
+      Opens in new window
+    </span>
+    <svg
+      className="externalLinkIcon"
+    />
+  </a>
+  <div
+    className="flex flex-wrap text-lg text-secondary opacity-80 mt-1 "
+  >
+    <div
+      className="flex items-center gap-1.5"
+    >
+      <svg
+        className="fill-secondary opacity-80 h-3.5"
+      />
+      <span
+        className="ml-1"
+      >
+        Formidable Labs
+      </span>
+    </div>
+    <div
+      className="flex items-center gap-1.5"
+    >
+      <svg
+        className="fill-secondary opacity-80 h-3.5"
+      />
+      <span
+        className="ml-1"
+      >
+        Seattle
+        ,
+      </span>
+      <span
+        className="ml-1"
+      >
+        WA
+        ,
+      </span>
+      <span
+        className="ml-1"
+      >
+        United States
+      </span>
+    </div>
+    <div
+      className="flex items-center gap-1.5"
+    >
+      <svg
+        className="fill-secondary opacity-80 h-3.5"
+      />
+      <span
+        className="ml-1"
+      >
+        Remote
+      </span>
+    </div>
+  </div>
+  <p
+    className="m-0"
+  >
+    As an Experienced React Engineer, you will do React things.
+  </p>
+</article>
+`;
+
+exports[`FeaturedJobItem should render with required props 1`] = `
+<article
+  className="py-4 px-0"
+>
+  <a
+    className="OutboundLink"
+    href="https://about.gitlab.com/jobs/apply/?gh_jid=4055708002"
+    onClick={[Function]}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <h6>
+      DevOps Engineer
+    </h6>
+    <span
+      className="sr-only"
+      data-testid="SCREEN_READER_ONLY"
+    >
+      Opens in new window
+    </span>
+    <svg
+      className="externalLinkIcon"
+    />
+  </a>
+  <div
+    className="flex flex-wrap text-lg text-secondary opacity-80 mt-1 "
+  >
+    <div
+      className="flex items-center gap-1.5"
+    >
+      <svg
+        className="fill-secondary opacity-80 h-3.5"
+      />
+      <span
+        className="ml-1"
+      >
+        GitLab
+      </span>
+    </div>
+    <div
+      className="flex items-center gap-1.5"
+    />
+  </div>
+  <p
+    className="m-0"
+  >
+    This is a fake role, since GitLab always has remote.
+  </p>
+</article>
+`;

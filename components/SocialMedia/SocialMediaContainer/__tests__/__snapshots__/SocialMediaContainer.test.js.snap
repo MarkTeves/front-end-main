@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMediaContainer should render with required props 1`] = `
+<div
+  className="flex flex-row justify-around items-center"
+>
+  <div>
+    Testing 1
+  </div>
+  <div>
+    Testing 2
+  </div>
+</div>
+`;
