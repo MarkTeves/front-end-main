@@ -93,4 +93,4 @@ Thanks to [Sentry](https://getsentry.io) for a wonderful experience with catalog
 
 <a href="https://vercel.com"><img src="https://raw.githubusercontent.com/OperationCode/front-end/main/public/static/images/vercel.svg" width="306" height="90" alt="Vercel" /></svg></a>
 
-Thanks to [Vercel](https://vercel.com) for hosting and continuous deployment of all our web applications.
+Thanks to [Vercel](https://vercel.com) for hosting and continuous deployment of all our web applications. 
